@@ -6,6 +6,7 @@ export const WALLET_PRIV_KEY = process.env.WALLET_PRIV_KEY;
 export const ALCHEMY_API_KEY_MAINNET = process.env.ALCHEMY_API_KEY;
 
 let provider = new AlchemyProvider("homestead", ALCHEMY_API_KEY_MAINNET)
+console.log("debug")
 
 export const walletMainnet = new ethers.Wallet(
     WALLET_PRIV_KEY as string,

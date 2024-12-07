@@ -21,7 +21,8 @@
   "homepage": "https://github.com/ProjectOpenSea/buy-sell-opensea-sdk-demo#readme",
   "dependencies": {
     "@types/node": "^20.11.5",
-    "ethers": "^6.10.0",
+    "axios": "^1.7.9",
+    "ethers": "^6.13.4",
     "opensea-js": "^7.0.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
